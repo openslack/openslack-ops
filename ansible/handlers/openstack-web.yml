@@ -1,0 +1,1 @@
+docker run -t -i --name openslack --net=host -v /mnt/sda1/opt/openstack:/opt/openstack taohongxiu/crawler bash
