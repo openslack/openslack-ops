@@ -1,0 +1,3 @@
+#docker run -it --link some-redis:redis --rm redis sh -c 'exec redis-cli -h "$REDIS_PORT_6379_TCP_ADDR" -p "$REDIS_PORT_6379_TCP_PORT"'
+docker run --name redis -p 6379:6379 -d redis
+docker run -v /opt/redis/redis.conf:/etc/redis/redis.conf -v /opt/redis/data:/var/data --name redis redis redis-server /etc/redis/redis.conf
