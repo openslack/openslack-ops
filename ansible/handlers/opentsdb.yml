@@ -1,0 +1,2 @@
+EXPOSE 4242:4242
+/usr/share/opentsdb/bin/tsdb tsd
