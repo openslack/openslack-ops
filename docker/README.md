@@ -1,0 +1,3 @@
+我们主要用Docker来做分布式环境下的进程管理。Docker工作流如图7所示，我们不仅把Docker应用到生产阶段，也应用到开发阶段，
+所以我们每天编辑Dockerfile，提升Docker Images，测试上线，发Docker镜像，
+在我们内部私有Docker regis里面，再调到我们Docker集群生产环境里面，这和其他的Docker工作流没有什么区别。

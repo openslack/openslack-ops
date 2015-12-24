@@ -1,0 +1,4 @@
+在Mesos提交Docker任务
+因为Mesos和Docker已经是无缝结合起来。通过Marathon和Chronos提交服务型应用和批处理型应用。
+Marathon和Chronos通过RESTful的方式提交任务，用JSON脚本设定应用的后台实例个数、应用的参数、以及Docker Images的路径等等。
+
