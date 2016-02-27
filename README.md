@@ -21,11 +21,13 @@
 
 9) cmdb配置基本的信息
 
-10）Marathon通过Mesos启动Docker容器时，Marathon将容器启动信息通知Etcd服务。Etcd服务将已经启动容器信息注册到Etcd键值库中。Marathon会监听容器的状态和恢复能力，Chronos是针对分布式批处理应用提供任务调度，比如定期处理日志或者定期调Hadoop等离线任务。
+10）Marathon通过Mesos启动Docker容器时，Marathon将容器启动信息通知Etcd服务。Etcd服务将已经启动容器信息注册到Etcd键值库中。Marathon会监听容器的状态和恢复能力，
 
-11）文件存储，可以是HDFS或者CEPH
+11) Chronos是针对分布式批处理应用提供任务调度，比如定期处理日志或者定期调Hadoop等离线任务。
 
-12) 进程间通信
+12）文件存储，可以是HDFS或者CEPH
+
+13) 进程间通信
 
 ## 功能包含
 1) DCOS Dashboard

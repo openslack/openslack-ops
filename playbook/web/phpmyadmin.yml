@@ -1,0 +1,3 @@
+- apt-get install phpmyadmin
+- ln -s /usr/share/phpmyadmin /var/www/html
+- http://127.0.0.1/phpmyadmin
